@@ -32,6 +32,3 @@ leetcode-solutions/
 - Understand time and space complexity.
 - Prepare for technical interviews.
 
-## 🔗 Profile
-
-[LeetCode](https://leetcode.com/) • [GitHub](https://github.com/dhanushap1)
