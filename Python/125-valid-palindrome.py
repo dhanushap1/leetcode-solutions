@@ -52,3 +52,29 @@ class Solution(object):
         if u == t:
             return True
         return False
+
+"""OR two pointer"""
+class Solution(object):
+    def isPalindrome(self, s):
+        t = ""
+
+        # Convert to lowercase and remove special characters
+        s = s.lower()
+
+        for c in s:
+            if c.isalnum():
+                t += c
+
+        # Initialize two pointers
+        left = 0
+        right = len(t) - 1
+
+        # Compare characters
+        while left < right:
+            if t[left] != t[right]:
+                return False
+
+            left += 1
+            right -= 1
+
+        return True
